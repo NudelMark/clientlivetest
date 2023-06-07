@@ -16,7 +16,7 @@ sock.connect((TCP_IP, TCP_PORT))
 
 # Инициализация камеры
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("dev/video0")
 
 # Установка параметров кадра
 
